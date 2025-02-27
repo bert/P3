@@ -28,7 +28,7 @@ dat_TARGETS := $(patsubst %.ckt,%.dat,$(ckt_SOURCES))
 	gschem -q -o $@ -s/usr/share/gEDA/scheme/print.scm $<
 
 %.pdf	: %.ps
-	ps2pdf -dOptimize=true -dUseFlateCompression=true -sPAPERSIZE=a4 $<
+	ps2pdf -dOptimize=true -dUseFlateCompression=true -sPAPERSIZE=a3 $<
 
 %.dat : %.ckt
 	gnucap -b $< \
