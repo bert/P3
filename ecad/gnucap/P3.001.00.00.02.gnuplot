@@ -3,7 +3,7 @@ set term png
 
 # setup graph
 set output "P3.001.00.00.02.png"
-set title "Fuzz - Frequency response"
+set title "Fuzz - Frequency response (99% Gain, BC107 and 1N4148 Diodes Inc)"
 
 # setup Y-axis
 set grid ytics lt 1 lw 1 lc rgb "#bbbbbb"

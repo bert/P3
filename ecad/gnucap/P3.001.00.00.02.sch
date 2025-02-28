@@ -11,7 +11,7 @@ author=Bert Timmerman
 T 9500 100 5 10 1 1 0 0 1
 page=01
 T 9500 400 5 10 1 1 0 0 1
-file=gnucap/P3.001.00.00.01.sch
+file=gnucap/P3.001.00.00.02.sch
 T 11000 100 5 10 1 1 0 0 1
 pages=01
 T 9500 1100 5 10 1 1 0 0 1
